@@ -20,7 +20,13 @@ Una herramienta sencilla en **Python**, ideal para desarrolladores, analistas y 
 
 ## ⚙️ Cómo usarlo
 
-### 1️⃣ Clonar el repositorio
-```bash
+# 1️⃣ Clonar este repositorio
 git clone https://github.com/AutoLab-dev/CSV2JSON.git
 cd CSV2JSON
+
+# 2️⃣ Ejecutar el script con el archivo de ejemplo incluido
+python3 csv2json.py
+
+# 3️⃣ Convertir tu propio archivo CSV
+python3 csv2json.py ruta/del/archivo.csv
+
